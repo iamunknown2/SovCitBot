@@ -5,11 +5,11 @@ from time import sleep
 import praw
 
 from config import user_agent, username, password, subreddit_list, delay_between_polls
-from sovereign_citizen_bot.quote_generator import get_quote
+from quote_generator import get_quote
 
 
 def check_config():
-    if not os.path.isfile("../config.py"):
+    if not os.path.isfile("./config.py"):
         print("You must create a config file")
         exit(1)
 
