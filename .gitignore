@@ -1,6 +1,8 @@
 # Ignore config file to avoid accidentally uploading credentials
 config.py
 *.pyc
+__pycache__/
 
 # Ignore PyCharm folders
 .idea/
+
