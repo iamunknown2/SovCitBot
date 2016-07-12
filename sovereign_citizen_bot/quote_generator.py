@@ -2,12 +2,12 @@ import random
 
 snippets = {
     "initial": [
-        ["The GOLD FRINGES on the US FLAG in a court", "gold fringe"],
+        ["The GOLD FRINGES on the US FLAG in a court ", "gold fringe"],
         ["Someone's NAME in ALL CAPITALS don't refer to the SAME PERSON . ", "all caps name"],
         ["Actually , the POLICE have NO RIGHT to ARREST you . "
-         "Instead ,they can only DETAIN you. Only SHERIFFS can arrest you . ", "AM I BEING DETAINED"]
+         "Instead , they can only DETAIN you. Only SHERIFFS can arrest you . ", "AM I BEING DETAINED"]
     ], "gold fringe": [
-        [" indicate the COURT as a COURT within MARITIME LAW . ", "maritime"]
+        ["indicate the COURT as a COURT within MARITIME LAW . ", "maritime"]
     ], "maritime": [
         ["This means that ANY RULINGS in COURT (I.E ALL OF THEM) are uner MARTIAL LAW , "
          "where the DEFENDANT is GUILTY until PROVEN INNOCENT . THE US IS STILL UNDER MARTIAL LAW . "
@@ -15,9 +15,9 @@ snippets = {
     ], "cars": [["The ABANDONED SHIPWRECK ACT protects SHIPWRECKS (I.E CRASHED CARS) "
                  "from TREASURE HUNTERS and SALVAGERS (AKA THE POLICE) . Therefore , CONTEST your CHARGES "
                  "by declaring that they ILLEGALLY pulled you over .", "end"],
-                ["INTERNATIONAL MARITIME LAW makes the act of PIRACY (I.E THE POLICE PULLING YOU OVER AND"
-                 " FORCING YOU TO PAY) ILLEGAL . CONTEST your CHARGES in COURT by SUING the STATE for COMMITTING"
-                 " the act of PIRACY .", "end"]
+                ["INTERNATIONAL MARITIME LAW makes the act of PIRACY (I.E THE POLICE PULLING YOU OVER AND "
+                 "FORCING YOU TO PAY) ILLEGAL . CONTEST your CHARGES in COURT by SUING the STATE for COMMITTING"
+                 "the act of PIRACY .", "end"]
                 ], "all caps name": [
         ["According to ENGLISH EXPERTS , NAMES are not to be written in ALL CAPS . ", "denial"],
         ["Instead, ALL CAPS NAMES refer to a COMPLETELY DIFFERENT and NON-EXISTENT LEGAL ENTITY . ", "denial"]
