@@ -31,7 +31,7 @@ def main():
             for comment in r.get_unread():
                 print("Id: " + comment.id + "\nSubreddit: " + str(comment.subreddit) + "\nBody: " + comment.body)
 
-                if "/u/" + username not in comment.body:
+                if ("/u/" + username).lower() not in comment.body.lower():
                     comment.mark_as_read()
                     print("Comment is not a username mention")
                     continue
